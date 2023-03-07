@@ -37,13 +37,21 @@
         margin: 0;
     }
     p {
-        background-color: v.$rosa;
+        background: rgb(255,49,0);
+        background: radial-gradient(circle, rgba(255,49,0,0.998613288088673) 17%, rgba(121,9,33,0.8977729519542192) 92%);
         display: inline-block;
         padding: 1rem 2rem;
+
+        -webkit-border-radius: 3rem;
+        -moz-border-radius: 3rem;
+        -ms-border-radius: 3rem;
+        -o-border-radius: 3rem;
         border-radius: 3rem;
+        border-style: solid;
         color: v.$blanco;
         font-weight: 700;
         font-size: 2rem;
         margin: 0;
-    }
+
+}
 }

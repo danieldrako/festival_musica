@@ -445,10 +445,16 @@ img {
   margin: 0;
 }
 .contenido-video p {
-  background-color: #9d192f;
+  background: rgb(255, 49, 0);
+  background: radial-gradient(circle, rgba(255, 49, 0, 0.9986132881) 17%, rgba(121, 9, 33, 0.897772952) 92%);
   display: inline-block;
   padding: 1rem 2rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
   border-radius: 3rem;
+  border-style: solid;
   color: #e1e1e1;
   font-weight: 700;
   font-size: 2rem;
