@@ -37,6 +37,7 @@
 
     background-color: rgb(0 0 0 / .5);
 
+
     picture{
         display: block;
         max-width: 90rem;
@@ -44,10 +45,10 @@
 }
 
 .btn-cerrar {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 90%;
-    background-color: rgba(138, 138, 137, 0.942);
+    background-color: rgba(87, 87, 85, 0.942);
     color: rgb(199, 181, 82);
     display: grid;
     place-items: center;
