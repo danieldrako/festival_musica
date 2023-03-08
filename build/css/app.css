@@ -636,3 +636,63 @@ img {
 .btn-cerrar:hover {
   cursor: pointer;
 }
+
+.boletos {
+  padding: 5rem 0;
+}
+.boletos h3 {
+  text-align: center;
+  color: beige;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .boletos .contenedor-boletos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+
+.pase {
+  color: black;
+}
+.pase .nombre-pase {
+  text-align: center;
+  font-size: 2.4rem;
+  color: aliceblue;
+}
+.pase-header, .pase-footer {
+  padding: 0.5rem;
+}
+.pase-header p, .pase-footer p {
+  text-align: center;
+  color: #e1e1e1;
+  margin: 0;
+}
+.pase-header {
+  background-color: #9d192f;
+}
+.pase-header p {
+  text-transform: uppercase;
+}
+.pase-body {
+  background-color: #e1e1e1;
+}
+.pase-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pase-body ul li,
+.pase-body ul :nth-child(odd) {
+  background-color: #e1e1e1;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(238, 17, 238, 0.0666666667);
+}
+.pase-footer {
+  background-color: #752F97;
+}
+.pase-footer p {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
