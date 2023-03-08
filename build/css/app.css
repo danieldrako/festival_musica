@@ -696,3 +696,13 @@ img {
   font-size: 2.2rem;
   font-weight: 700;
 }
+
+.site-footer {
+  background-color: #9d192f;
+  padding: 1rem;
+}
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: #e1e1e1;
+}
