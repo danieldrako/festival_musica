@@ -319,11 +319,12 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.6rem;
 }
 body.fijar-body {
   overflow: hidden;
+  padding-top: 0rem;
 }
 
 p {
@@ -366,7 +367,16 @@ img {
 }
 
 .header {
-  background-color: #41b285;
+  background-color: #4d9de0;
+}
+@media (min-width: 768px) {
+  .header.fijo {
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0.3rem 0.3rem 0.3rem #616161;
+  }
 }
 .header h1 {
   color: #616161;
@@ -378,7 +388,7 @@ img {
   }
 }
 .header .contenido-header {
-  padding: 2rem;
+  padding: 1rem;
 }
 @media (min-width: 768px) {
   .header .contenido-header {
@@ -407,7 +417,7 @@ img {
   }
 }
 .navegacion-principal a:hover {
-  color: #e2c44a;
+  color: #e1bc29;
 }
 
 .video {
@@ -463,6 +473,7 @@ img {
 
 .sobre-festival {
   padding: 5rem 0;
+  margin-bottom: 4rem;
 }
 @media (min-width: 768px) {
   .sobre-festival {
@@ -487,17 +498,24 @@ img {
   margin-bottom: 2rem;
 }
 .contenido-festival .fecha {
-  color: #9d192f;
+  color: #9a031e;
   font-weight: 700;
 }
 
 .lineup {
-  background-color: #9d192f;
+  background-color: #9a031e;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   padding: 5rem 0;
+  margin-bottom: 8rem;
+}
+.lineup li:nth-child(even) {
+  background-color: #78b5e8;
 }
 .lineup h3, .lineup p {
   text-align: center;
   color: #e1e1e1;
+  margin-top: 5rem;
 }
 .lineup .dia {
   text-transform: uppercase;
@@ -552,25 +570,26 @@ img {
 }
 
 .bg-amarillo {
-  background-color: #e2c44a;
+  background-color: #e1bc29;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .bg-amarillo li:nth-child(even) {
-  background-color: #e9d276;
+  background-color: #e7ca56;
 }
 
 .bg-verde {
-  background-color: #41b285;
+  background-color: #4d9de0;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .bg-verde li:nth-child(even) {
-  background-color: #61c59d;
+  background-color: #78b5e8;
 }
 
 .galeria {
   padding: 5rem 0;
+  margin-bottom: 6rem;
 }
 .galeria h3 {
   text-align: center;
@@ -639,6 +658,7 @@ img {
 
 .boletos {
   padding: 5rem 0;
+  margin-bottom: 5rem;
 }
 .boletos h3 {
   text-align: center;
@@ -670,7 +690,7 @@ img {
   margin: 0;
 }
 .pase-header {
-  background-color: #9d192f;
+  background-color: #9a031e;
 }
 .pase-header p {
   text-transform: uppercase;
@@ -690,7 +710,7 @@ img {
   border-bottom: 1px solid rgba(238, 17, 238, 0.0666666667);
 }
 .pase-footer {
-  background-color: #752F97;
+  background-color: #7768ae;
 }
 .pase-footer p {
   font-size: 2.2rem;
@@ -698,7 +718,7 @@ img {
 }
 
 .site-footer {
-  background-color: #9d192f;
+  background-color: #9a031e;
   padding: 1rem;
 }
 .site-footer p {

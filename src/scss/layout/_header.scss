@@ -3,6 +3,17 @@
 
 .header {
     background-color: v.$verde;
+
+    @include m.tablet{
+        &.fijo {
+            left: 0;
+            top: 0;
+            position: fixed;
+            width: 100%;
+            box-shadow: .3rem .3rem .3rem #616161;
+        }
+    }
+    
     h1 {
         color: #616161;
         text-align: center;
@@ -12,7 +23,7 @@
 
     }
     .contenido-header {
-        padding: 2rem;
+        padding: 1rem;
         @include m.tablet {
             display:flex;
             justify-content:space-between;
